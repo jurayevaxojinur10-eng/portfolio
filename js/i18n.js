@@ -1,0 +1,16 @@
+const I18N={
+uz:{nav_about:"Men haqimda",nav_skills:"Ko'nikmalar",nav_projects:"Loyihalar",nav_contact:"Aloqa",hello:"// salom, dunyo 👋",lead:"Andijondan bo'lajak dasturchi. Kodni san'at kabi yozishni o'rganyapman.",cta1:"Loyihalarni ko'rish",cta2:"Bog'lanish",
+about_t:"Men haqimda",about_p:"Men Hojinur — Andijon viloyatidanman. Dasturlashni sevaman, chunki bir g'oyani ekranda jonlantirish mumkin. Maqsadim — foydali va chiroyli veb-ilovalar yaratadigan dasturchi bo'lish.",f_loc:"Andijon viloyati, O'zbekiston",f_goal:"Maqsad: Frontend / Full-stack dasturchi",f_now:"Hozir: HTML, CSS va JavaScript o'rganyapman",
+skills_t:"Ko'nikmalar",s_design:"Dizayn",proj_t:"Loyihalar",p1_t:"Birinchi loyiham",p1_d:"Bu yerga loyiha tavsifini yozing.",p2_t:"Ikkinchi loyiham",p2_d:"Bu yerga loyiha tavsifini yozing.",p3_t:"Uchinchi loyiham",p3_d:"Bu yerga loyiha tavsifini yozing.",
+contact_t:"Bog'lanamizmi?",contact_p:"G'oyangiz bormi? Yozing, birga qilamiz.",ph_name:"Ismingiz",ph_mail:"Email manzilingiz",ph_msg:"Xabaringiz",send:"Xabar yuborish",
+roles:["Bo'lajak dasturchi","Frontend ixlosmandi","Andijondan salom!","Kod + dizayn"]},
+en:{nav_about:"About",nav_skills:"Skills",nav_projects:"Projects",nav_contact:"Contact",hello:"// hello, world 👋",lead:"Aspiring developer from Andijan, learning to write code like art.",cta1:"See my projects",cta2:"Get in touch",
+about_t:"About me",about_p:"I'm Hojinur, from Andijan region. I love programming because one idea can come alive on a screen. My goal is to become a developer who builds useful and beautiful web apps.",f_loc:"Andijan region, Uzbekistan",f_goal:"Goal: Frontend / Full-stack developer",f_now:"Now: learning HTML, CSS and JavaScript",
+skills_t:"Skills",s_design:"Design",proj_t:"Projects",p1_t:"My first project",p1_d:"Write your project description here.",p2_t:"My second project",p2_d:"Write your project description here.",p3_t:"My third project",p3_d:"Write your project description here.",
+contact_t:"Let's talk",contact_p:"Got an idea? Write to me and we'll build it together.",ph_name:"Your name",ph_mail:"Your email",ph_msg:"Your message",send:"Send message",
+roles:["Future developer","Frontend enthusiast","Greetings from Andijan!","Code + design"]},
+tr:{nav_about:"Hakkımda",nav_skills:"Yetenekler",nav_projects:"Projeler",nav_contact:"İletişim",hello:"// merhaba, dünya 👋",lead:"Andican'dan gelecek vadeden bir yazılımcı. Kodu sanat gibi yazmayı öğreniyorum.",cta1:"Projelerimi gör",cta2:"İletişime geç",
+about_t:"Hakkımda",about_p:"Ben Hojinur, Andican bölgesindenim. Programlamayı seviyorum çünkü bir fikir ekranda hayat bulabiliyor. Hedefim faydalı ve güzel web uygulamaları geliştiren bir yazılımcı olmak.",f_loc:"Andican bölgesi, Özbekistan",f_goal:"Hedef: Frontend / Full-stack geliştirici",f_now:"Şu an: HTML, CSS ve JavaScript öğreniyorum",
+skills_t:"Yetenekler",s_design:"Tasarım",proj_t:"Projeler",p1_t:"İlk projem",p1_d:"Proje açıklamasını buraya yazın.",p2_t:"İkinci projem",p2_d:"Proje açıklamasını buraya yazın.",p3_t:"Üçüncü projem",p3_d:"Proje açıklamasını buraya yazın.",
+contact_t:"Konuşalım mı?",contact_p:"Bir fikrin mi var? Yaz, birlikte yapalım.",ph_name:"Adınız",ph_mail:"E-posta adresiniz",ph_msg:"Mesajınız",send:"Mesaj gönder",
+roles:["Geleceğin yazılımcısı","Frontend tutkunu","Andican'dan selam!","Kod + tasarım"]}};

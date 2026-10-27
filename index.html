@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jo'rayeva Hojinur — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Outfit:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="glow" id="glow"></div>
+<div class="blobs"><i></i><i></i><i></i></div>
+<header class="nav">
+  <a href="#home" class="logo">&lt;hojinur/&gt;</a>
+  <nav>
+    <a href="#about" data-i18n="nav_about"></a><a href="#skills" data-i18n="nav_skills"></a>
+    <a href="#projects" data-i18n="nav_projects"></a><a href="#contact" data-i18n="nav_contact"></a>
+  </nav>
+  <div class="tools">
+    <div class="lang"><button data-lang="uz">UZ</button><button data-lang="en">EN</button><button data-lang="tr">TR</button></div>
+    <button id="theme" aria-label="Theme"><span class="sun">☀</span><span class="moon">☾</span></button>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="hello" data-i18n="hello"></p>
+    <h1>Jo'rayeva<br>Hojinur</h1>
+    <p class="role"><span id="typed"></span><b class="caret"></b></p>
+    <p class="lead" data-i18n="lead"></p>
+    <div class="cta"><a class="btn" href="#projects" data-i18n="cta1"></a><a class="btn ghost" href="#contact" data-i18n="cta2"></a></div>
+  </div>
+  <div class="hero-visual">
+    <div class="photo tilt"><img src="images/profile.jpg" alt="Jo'rayeva Hojinur"></div>
+    <pre class="code tilt"><code><span class="k">const</span> hojinur = {
+  from: <span class="s">"Andijon"</span>,
+  goal: <span class="s">"Developer"</span>,
+  learning: <span class="k">true</span>,
+  coffee: <span class="k">Infinity</span>
+};</code></pre>
+    <span class="tag t1">HTML</span><span class="tag t2">CSS</span><span class="tag t3">JS</span><span class="tag t4">Python</span>
+  </div>
+</section>
+
+<section id="about" class="sec">
+  <h2 data-i18n="about_t"></h2>
+  <div class="about">
+    <p data-i18n="about_p"></p>
+    <ul class="facts">
+      <li><b>📍</b><span data-i18n="f_loc"></span></li>
+      <li><b>🎯</b><span data-i18n="f_goal"></span></li>
+      <li><b>🌱</b><span data-i18n="f_now"></span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="sec">
+  <h2 data-i18n="skills_t"></h2>
+  <div class="skills">
+    <div class="skill" data-v="80"><span>HTML</span><div><i></i></div></div>
+    <div class="skill" data-v="70"><span>CSS</span><div><i></i></div></div>
+    <div class="skill" data-v="55"><span>JavaScript</span><div><i></i></div></div>
+    <div class="skill" data-v="45"><span>Python</span><div><i></i></div></div>
+    <div class="skill" data-v="50"><span>Git &amp; GitHub</span><div><i></i></div></div>
+    <div class="skill" data-v="65"><span data-i18n="s_design"></span><div><i></i></div></div>
+  </div>
+</section>
+
+<section id="projects" class="sec">
+  <h2 data-i18n="proj_t"></h2>
+  <div class="grid">
+    <article class="card tilt"><img src="images/project1.svg" alt=""><h3 data-i18n="p1_t"></h3><p data-i18n="p1_d"></p></article>
+    <article class="card tilt"><img src="images/project2.svg" alt=""><h3 data-i18n="p2_t"></h3><p data-i18n="p2_d"></p></article>
+    <article class="card tilt"><img src="images/project3.svg" alt=""><h3 data-i18n="p3_t"></h3><p data-i18n="p3_d"></p></article>
+  </div>
+</section>
+
+<section id="contact" class="sec contact">
+  <h2 data-i18n="contact_t"></h2>
+  <p data-i18n="contact_p"></p>
+  <form id="form">
+    <input id="n" required data-i18n-ph="ph_name"><input id="e" type="email" required data-i18n-ph="ph_mail">
+    <textarea id="m" rows="4" required data-i18n-ph="ph_msg"></textarea>
+    <button class="btn" data-i18n="send"></button>
+  </form>
+  <div class="social"><a href="https://github.com/" target="_blank">GitHub</a><a href="https://t.me/" target="_blank">Telegram</a><a href="https://instagram.com/" target="_blank">Instagram</a></div>
+</section>
+<footer>© 2026 Jo'rayeva Hojinur · Andijon</footer>
+<script src="js/i18n.js"></script><script src="js/main.js"></script>
+</body></html>
